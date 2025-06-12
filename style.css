@@ -1,0 +1,81 @@
+
+    
+    * {
+            margin: 0;
+            padding: 0;
+    }
+    
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body {
+        background-color:  hsl(47, 88%, 63%);
+        font-family: "Figtree", sans-serif;
+         min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .learn {
+        display: inline-block;
+        padding: 5px;
+        background-color:  hsl(47, 88%, 63%);
+        font-weight: 800;
+        margin-top: 15px;
+    }
+
+    .carte {
+        display: inline-block;
+        background-color: hsl(0, 0%, 100%);
+        border: 1px solid;
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 100px;
+        box-shadow: 8px 8px 0px 0px black;
+    }
+
+    .html{
+        font-weight: 800;
+        margin-top: 15px;
+        font-size: 23px;
+    }
+
+    .publish{
+        margin-top: 15px;
+    }
+
+    .language{
+        margin-top: 15px;
+    }
+
+    .illustration-carte img{
+        border-radius: 20px;
+    }
+
+    .photo-avatar{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .photo-avatar img {
+        width: 32px;
+    }
+
+    .photo-avatar p {
+        font-weight: 800;
+    }
+
+    .html:hover{
+        color:hsl(47, 88%, 63%); ;
+    }
+
+    .html a {
+        text-decoration: none;
+        color: inherit;
+    }
